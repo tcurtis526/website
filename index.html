@@ -41,14 +41,28 @@
 
 <div class="row">
     <div class="column">hello</div>
-    <div class="column">hello</div>
-    <div class="column">hello</div>
+    <div class="column1">
+        <img class="mainImg"src="./img/main.png">
+    </div>
+    <div class="column2">hello</div>
   </div> 
 
 <style>
     .column {
   float: left;
   width: 33.33%;
+  color:white;
+  
+  
+}
+.column1{
+    float: left;
+    width: 33.33%;
+}
+.column2{
+    float: left;
+    width: 33.33%;
+    color: white;
 }
 
 /* Clear floats after the columns */
@@ -56,6 +70,12 @@
   content: "";
   display: table;
   clear: both;
+}
+.mainImg{
+    width: 80%;
+}
+body{
+    background-color: black;
 }
 </style>
 
